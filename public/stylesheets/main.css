@@ -1,0 +1,70 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -55px;
+    padding-bottom: 20px;
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+.footer,
+.page-wrap:after {
+    height: 55px;
+}
+.footer {
+    background: #e7e7e7;
+}
+.footer .container {
+    padding-top: 15px;
+}
+.footer {
+    color: #777;
+}
+.thumbnail {
+    padding: 0;
+}
+.thumbnail img {
+    width: 100%;
+}
+.thumbnail .caption-full {
+    padding: 9px;
+}
+.homenav{
+    align-content: center;
+
+}
+
+.mainbackground{
+    background: url("../imgs/wooden.jpeg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.carousel{
+    background: palevioletred;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.carousel .item img{
+    margin: 0 auto;
+    overflow: hidden;/* Align slide image horizontally center */
+}
+.bs-example{
+    margin: 10px;
+}
+
+.peopleCarouselImg img {
+    width: auto;
+    height: 700px;
+    max-height:700px;
+    overflow: hidden;
+}
