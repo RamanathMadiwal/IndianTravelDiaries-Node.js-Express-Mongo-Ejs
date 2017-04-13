@@ -1,37 +1,56 @@
-# YelpCamp
+# Indian travel diaries
 
-YelpCamp is a project that was completed as a part of [Colt Steele's bootcamp](https://www.udemy.com/the-web-developer-bootcamp/).  My version of YelpCamp has a few tweaks beyond what was coded in class.
+This application is created using Node.js ,express and Ejs.
 
 # Setup
 
-Different setups are needed if you plan on using YelpCamp locally (or Cloud9) verus the Heroku + MongoLab setup.  This is accomplished using enviornment variables.
+Install all the modules required as per package.json.
+Run the node app.js
 
-## Local/Cloud9 Setup
+set the parameters for process.env.DATABASEURL
+
+create mongo database in any website like mlab.
+Note down the user,db link and password of db.
+
+heroku config:set DATABASEURL='mongodb://:@ds12345.mlab.com:59670/blog'
+
+
+
+## Local Set up
 
 Run the following commands in the terminal.  Be sure to update information as necessary.
 
-```
-export DATABASEURL=mongodb://localhost/yelp_camp
+
+export DATABASEURL=mongodb://localhost:27017/IndianTravelDiaries
 export SESSION_SECRET=Whatever phrase you choose
 
-```
+
 
 ## Heroku + MongoLab setup
 
 Update the variables as follows:
 
-**DATABASEURL** 'mongodb://\<dbuser>:\<dbpassword>@1234.mlab.<span></span>com:19990/yelp-camp'  
+**DATABASEURL** 'mongodb://<dbuser>:<dbpassword>@1234.mlab.<span></span>com:19990/IndianTravelDiaries'  
 **SESSION_SECRET** 'Whatever phrase you choose'
 
 
-This can be accomplished on the Heroku site by accessing the Config Vars on the Settings page.  
-Alternatively this can be done on the command line with the following commands:
+From terminal :-
 
-```
-heroku config:set DATABASEURL='mongodb://SuperAdmin:Pleasewait@ds159330.mlab.com:59330/indiantraveldb'
+
+heroku config:set DATABASEURL='mongodb://<dbuser>:<dbpassword>@1234.mlab.<span></span>com:19990/IndianTravelDiaries'  
 heroku config:set SESSION_SECRET='Whatever phrase you choose'
-```
 
-# Deployed
 
-The app is deployed [here](https://lit-lake-99427.herokuapp.com/) at Heroku (also using [MongoLab](http://mlab.com)).
+# Deployment
+![alt tag](https://cloud.githubusercontent.com/assets/25265882/25014274/b08c3a90-2094-11e7-8cd6-d8d26735b434.png "Home Page")
+
+
+The app is deployed [here](https://stormy-garden-94091.herokuapp.com/) at Heroku .
+
+
+
+<div align="center"> <h5 style="color: red" ><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Disclaimer:This web application should not be used for
+                    commercial purpose!!Designed and created by Ramanath Madiwal.All &copy rights
+                    belongs to www.ramanathmadiwal.com</h5>
+            </div>
+
