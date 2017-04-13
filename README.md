@@ -22,7 +22,7 @@ Run the following commands in the terminal.  Be sure to update information as ne
 
 
 export DATABASEURL=mongodb://localhost:27017/IndianTravelDiaries
-export SESSION_SECRET=Whatever phrase you choose
+export SESSION_SECRET=anyphrase
 
 
 
@@ -30,7 +30,7 @@ export SESSION_SECRET=Whatever phrase you choose
 
 Update the variables as follows:
 
-**DATABASEURL** 'mongodb://<dbuser>:<dbpassword>@1234.mlab.<span></span>com:19990/IndianTravelDiaries'  
+**DATABASEURL** 'mongodb://dbuser:dbpassword@1234.mlab.<span></span>com:19990/IndianTravelDiaries'  
 **SESSION_SECRET** 'Whatever phrase you choose'
 
 
@@ -38,7 +38,7 @@ From terminal :-
 
 
 heroku config:set DATABASEURL='mongodb://<dbuser>:<dbpassword>@1234.mlab.<span></span>com:19990/IndianTravelDiaries'  
-heroku config:set SESSION_SECRET='Whatever phrase you choose'
+heroku config:set SESSION_SECRET='any  phrase'
 
 
 # Deployment
