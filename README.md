@@ -37,7 +37,7 @@ Update the variables as follows:
 From terminal :-
 
 
-heroku config:set DATABASEURL='mongodb://<dbuser>:<dbpassword>@1234.mlab.<span></span>com:19990/IndianTravelDiaries'  
+heroku config:set DATABASEURL='mongodb://dbuser:dbpassword@1234.mlab.<span></span>com:19990/IndianTravelDiaries'   
 heroku config:set SESSION_SECRET='any  phrase'
 
 
